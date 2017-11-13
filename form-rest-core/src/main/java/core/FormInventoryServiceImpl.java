@@ -8,7 +8,7 @@ import ejbClient.FormInventory;
 public class FormInventoryServiceImpl implements FormInventoryService {
 	
 	//Verificar o mappedName
-	@EJB(mappedName = "java:app/form-rest-ejb-0.1-SNAPSHOT/InventoryBean!br.edu.univas.si8.ta.form.ejb.interfaces.FormInventoryRemote")
+	@EJB(mappedName = "java:app/form-rest-ejb-0.1-SNAPSHOT/FormInventory!br.edu.univas.si8.ta.form.ejb.interfaces.FormInventoryRemote")
 	private FormInventory inventory;
 
 	@Override
