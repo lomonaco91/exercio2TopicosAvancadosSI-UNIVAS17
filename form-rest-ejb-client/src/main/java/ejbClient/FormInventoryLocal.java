@@ -1,5 +1,5 @@
 package ejbClient;
 
-public interface FormInventoryLocal {
+public interface FormInventoryLocal extends FormInventory {
 
 }
