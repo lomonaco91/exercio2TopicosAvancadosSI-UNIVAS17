@@ -2,7 +2,7 @@ package ejbClient;
 
 public interface FormInventory {
 
-	void createNewProduct(String productName);
+	void createNewProduct(String clientName, String clientEmail);
 
 	String[] listProductNames();
 
